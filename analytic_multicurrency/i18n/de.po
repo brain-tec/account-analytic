@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * analytic_multicurrency
+# 
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+# Rudolf Schnapka <rs@techno-flex.de>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-20 23:05+0000\n"
+"PO-Revision-Date: 2017-01-20 23:05+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>, 2017\n"
+"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: analytic_multicurrency
+#: model:ir.model,name:analytic_multicurrency.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Kostenstelle"
+
+#. module: analytic_multicurrency
+#: field:account.analytic.line,aa_currency_id:0
+msgid "Analytic Account currency"
+msgstr "Kostenstellenwährung"
+
+#. module: analytic_multicurrency
+#: field:account.analytic.line,aa_amount_currency:0
+msgid "Analytic Amount currency"
+msgstr "Kostenstellenwährung"
+
+#. module: analytic_multicurrency
+#: model:ir.model,name:analytic_multicurrency.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Kostenposition"
+
+#. module: analytic_multicurrency
+#: constraint:account.analytic.account:0
+msgid ""
+"Error. The currency has to be the same as the currency of the selected "
+"company."
+msgstr "Fehler. Die Währung muss mit der des Unternehmens übereinstimmen."
+
+#. module: analytic_multicurrency
+#: constraint:account.analytic.account:0
+msgid "Error. You can not create recursive analytic accounts."
+msgstr "Fehler. Kostenstellen dürfen nicht rekursiv angelegt sein."
+
+#. module: analytic_multicurrency
+#: help:account.analytic.line,aa_amount_currency:0
+msgid "The amount expressed in the related analytic account currency."
+msgstr "In der Kostenstellenwährung ausgewiesener Betrag"
+
+#. module: analytic_multicurrency
+#: help:account.analytic.line,aa_currency_id:0
+msgid "The related analytic account currency."
+msgstr "Die zugehörige Kostenstellenwährung."
+
+#. module: analytic_multicurrency
+#: view:account.analytic.line:analytic_multicurrency.view_account_analytic_line_tree
+msgid "Total in Currency"
+msgstr "Gesamtbetrag der Währung"

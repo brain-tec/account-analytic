@@ -13,6 +13,7 @@ You'll find modules that:
  - ...
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
@@ -20,6 +21,7 @@ addon | version | summary
 [account_analytic_plan_required](account_analytic_plan_required/) | 8.0.0.1.0 | Account Analytic Plan Required
 [account_analytic_project](account_analytic_project/) | 8.0.1.0.0 | Project and analytic account integration
 [account_analytic_required](account_analytic_required/) | 8.0.0.2.0 | Account Analytic Required
+[account_asset_analytic](account_asset_analytic/) | 8.0.1.0.0 | Adds analytic account per asset
 [analytic_multicurrency](analytic_multicurrency/) | 8.0.1.0.0 | Multi-Currency in Analytic Accounting
 [analytic_partner](analytic_partner/) | 8.0.1.0.0 | Classify analytic entries by partner
 [analytic_partner_hr_timesheet](analytic_partner_hr_timesheet/) | 8.0.1.0.0 | Classify HR activities by partner
@@ -29,6 +31,8 @@ addon | version | summary
 [procurement_analytic](procurement_analytic/) | 8.0.1.0.0 | This module adds analytic account to procurements
 [product_analytic](product_analytic/) | 8.0.1.0.0 | Add analytic account on products and product categories
 [purchase_procurement_analytic](purchase_procurement_analytic/) | 8.0.1.0.0 | This module sets analytic account in purchase order line from procurement analytic account
+[stock_analytic](stock_analytic/) | 8.0.1.0.0 | Adds an analytic account in stock move
+
 
 Unported addons
 ---------------
