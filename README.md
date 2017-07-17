@@ -13,13 +13,21 @@ You'll find modules that:
  - ...
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[account_analytic_distribution](account_analytic_distribution/) | 9.0.1.0.0 | Distribute incoming/outcoming account moves to several analytic accounts
+[account_analytic_no_lines](account_analytic_no_lines/) | 9.0.1.0.0 | This module hides analytics lines from accounting menus and disable their generation from an invoice or a move line.
+[account_analytic_parent](account_analytic_parent/) | 9.0.1.0.0 | This module reintroduces the hierarchy to the analytic accounts.
 [account_analytic_required](account_analytic_required/) | 9.0.1.0.0 | Account Analytic Required
 [analytic_base_department](analytic_base_department/) | 9.0.1.0.0 | Base Analytic Department Categorization
 [analytic_department](analytic_department/) | 9.0.1.0.0 | Analytic Department Categorization
+[purchase_analytic_distribution](purchase_analytic_distribution/) | 9.0.1.0.0 | Purchase Analytic Plans
+[sale_analytic_distribution](sale_analytic_distribution/) | 9.0.1.0.0 | Sales Analytic Distribution
+[stock_analytic](stock_analytic/) | 9.0.1.0.0 | Adds an analytic account in stock move
+
 
 Unported addons
 ---------------
