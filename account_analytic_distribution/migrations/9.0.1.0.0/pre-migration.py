@@ -12,11 +12,6 @@ table_renames = [
 ]
 
 column_renames = {
-    'account_analytic_plan_instance': [
-        ('code', None),
-        ('account_ids', 'rule_ids'),
-        ('plan_id', None),
-    ],
     'account_analytic_plan_instance_line': [
         ('plan_id', 'distribution_id'),
         ('rate', 'percent'),
@@ -26,9 +21,6 @@ column_renames = {
     ],
     'account_move_line': [
         ('analytics_id', 'analytic_distribution_id'),
-    ],
-    'account_bank_statement_line': [
-        ('analytics_id', None),
     ],
 }
 
@@ -42,6 +34,6 @@ models_renames = [
 
 @openupgrade.migrate(use_env=True)
 def migrate(env, version):
-    openupgrade.copy_columns(env.cr, column_renames)
+    openupgrade.rename_columns(env.cr, column_renames)
     openupgrade.rename_models(env.cr, models_renames)
     openupgrade.rename_tables(env.cr, table_renames)
