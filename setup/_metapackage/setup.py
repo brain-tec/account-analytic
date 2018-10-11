@@ -10,11 +10,13 @@ setuptools.setup(
     install_requires=[
         'odoo11-addon-account_analytic_parent',
         'odoo11-addon-account_analytic_required',
+        'odoo11-addon-account_analytic_sequence',
         'odoo11-addon-analytic_base_department',
         'odoo11-addon-analytic_product_category',
         'odoo11-addon-analytic_tag_dimension',
         'odoo11-addon-analytic_tag_dimension_purchase_warning',
         'odoo11-addon-analytic_tag_dimension_sale_warning',
+        'odoo11-addon-mrp_analytic',
         'odoo11-addon-product_analytic',
     ],
     classifiers=[
