@@ -24,19 +24,29 @@ msgid "Child Accounts"
 msgstr ""
 
 #. module: account_analytic_parent
+#: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account_parent_left
+msgid "Left Parent"
+msgstr ""
+
+#. module: account_analytic_parent
 #: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account_parent_id
 #: model:ir.ui.view,arch_db:account_analytic_parent.view_account_analytic_account_form
 msgid "Parent Analytic Account"
 msgstr ""
 
 #. module: account_analytic_parent
-#: code:addons/account_analytic_parent/models/account_analytic_account.py:87
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:102
 #, python-format
 msgid "Please activate first parent account %s"
 msgstr ""
 
 #. module: account_analytic_parent
-#: code:addons/account_analytic_parent/models/account_analytic_account.py:57
+#: model:ir.model.fields,field_description:account_analytic_parent.field_account_analytic_account_parent_right
+msgid "Right Parent"
+msgstr ""
+
+#. module: account_analytic_parent
+#: code:addons/account_analytic_parent/models/account_analytic_account.py:72
 #, python-format
 msgid "You can not create recursive analytic accounts."
 msgstr ""
