@@ -33,14 +33,12 @@ class TestInventoryAnalytic(TransactionCase):
         self.account_account_70000 = self.env['account.account'].create({
             'code': '70000',
             'name': '70000 (test)',
-            'type': self.env.ref('account.data_account_type_liquidity').id,
             'group_id': account_group.id,
             'user_type_id': user_type.id,
         })
         self.account_account_70001 = self.env['account.account'].create({
             'code': '70001',
             'name': '70001 (test)',
-            'type': self.env.ref('account.data_account_type_liquidity').id,
             'group_id': account_group.id,
             'user_type_id': user_type.id,
         })
@@ -71,11 +69,13 @@ class TestInventoryAnalytic(TransactionCase):
     def test_product_change_qty_analytic(self):
         product = self._create_product('product_product')
 
-        print('\n\n\nPRODUCT ID={0}\n\n\n'.format(product.id))
-
         inventory_lines_before = self.env['stock.inventory.line'].search([
             ('product_id', '=', product.id),
             ('analytic_account_id', '=', self.analytic_account.id),
+        ])
+        analytic_lines_before = self.env['account.analytic.line'].search([
+            ('product_id', '=', product.id),
+            ('account_id', '=', self.analytic_account.id),
         ])
 
         self._product_change_qty(product, 10, self.analytic_account)
@@ -90,5 +90,14 @@ class TestInventoryAnalytic(TransactionCase):
         inventory_line_created = inventory_lines_after - inventory_lines_before
         self.assertEqual(inventory_line_created.inventory_id.state, 'done')
 
-        # Checks that there exists an analytic line created with that account.
-
+        # Checks that there exists two analytic lines created with that account
+        analytic_lines_after = self.env['account.analytic.line'].search([
+            ('product_id', '=', product.id),
+            ('account_id', '=', self.analytic_account.id),
+        ])
+        self.assertNotEqual(analytic_lines_before, analytic_lines_after)
+        analytic_lines_created = analytic_lines_after - analytic_lines_before
+        self.assertEqual(sorted(analytic_lines_created.mapped('amount')),
+                         [-1000.0, +1000.0])
+        self.assertEqual(analytic_lines_created.mapped('unit_amount'),
+                         [10.0, 10.0])
