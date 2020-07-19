@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo12-addon-account_analytic_default_purchase',
         'odoo12-addon-account_analytic_distribution_required',
+        'odoo12-addon-account_analytic_line_name_text',
         'odoo12-addon-account_analytic_parent',
         'odoo12-addon-account_analytic_required',
         'odoo12-addon-account_analytic_sequence',
@@ -20,6 +21,7 @@ setuptools.setup(
         'odoo12-addon-analytic_product_category',
         'odoo12-addon-analytic_tag_dimension',
         'odoo12-addon-analytic_tag_dimension_enhanced',
+        'odoo12-addon-analytic_tag_dimension_purchase_warning',
         'odoo12-addon-mrp_analytic',
         'odoo12-addon-procurement_mto_analytic',
         'odoo12-addon-product_analytic',
