@@ -1,7 +1,7 @@
 
 # BT Customizations
 Open OCA PRs merged
-- (https://github.com/OCA/analytic-account/pull/271) mail_outbound_static
+- (https://github.com/OCA/analytic-account/pull/271) analytic_account_sequence
 
 =========================
 Account Analytic Sequence
