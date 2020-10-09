@@ -1,3 +1,8 @@
+
+# BT Customizations
+Open OCA PRs merged
+- (https://github.com/OCA/analytic-account/pull/271) mail_outbound_static
+
 =========================
 Account Analytic Sequence
 =========================
@@ -23,7 +28,7 @@ Account Analytic Sequence
     :target: https://runbot.odoo-community.org/runbot/87/13.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 This module restores the sequence for an analytic account.
 
