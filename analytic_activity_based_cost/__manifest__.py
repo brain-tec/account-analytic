@@ -3,7 +3,7 @@
 
 {
     "name": "Analytic Activity Based Cost",
-    "version": "14.0.3.0.0",
+    "version": "14.0.3.1.0",
     "author": "Open Source Integrators, Odoo Community Association (OCA)",
     "summary": "Assign overhead costs to activities, using Analytic Items",
     "website": "https://github.com/OCA/account-analytic",
@@ -14,7 +14,7 @@
         "security/ir.model.access.csv",
         "views/activity_cost_rule_views.xml",
         "views/account_analytic_line.xml",
-        "views/product_template.xml",
+        "views/product.xml",
     ],
     "demo": [
         "demo/product_demo.xml",
