@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo14-addon-account_analytic_parent',
         'odoo14-addon-account_analytic_required',
+        'odoo14-addon-account_analytic_sequence',
         'odoo14-addon-account_analytic_wip',
         'odoo14-addon-analytic_activity_based_cost',
         'odoo14-addon-analytic_base_department',
@@ -20,6 +21,7 @@ setuptools.setup(
         'odoo14-addon-mrp_analytic_child_mo',
         'odoo14-addon-mrp_analytic_sale_project',
         'odoo14-addon-stock_analytic',
+        'odoo14-addon-stock_inventory_analytic',
     ],
     classifiers=[
         'Programming Language :: Python',
