@@ -39,7 +39,7 @@ class AccountAccount(models.Model):
     _inherit = "account.account"
 
     def _get_analytic_policy(self):
-        """ Extension point to obtain analytic policy for an account """
+        """Extension point to obtain analytic policy for an account"""
         self.ensure_one()
         return self.user_type_id.with_company(
             self.company_id.id
@@ -67,21 +67,25 @@ class AccountMoveLine(models.Model):
         if analytic_policy == "always" and not self.analytic_account_id:
             return _(
                 "Analytic policy is set to 'Always' with account "
-                "'%s' but the analytic account is missing in "
-                "the account move line with label '%s'."
+                "'%(placeholder1)s' but the analytic account is missing in "
+                "the account move line with label '%(placeholder2)s'."
             ) % (
-                self.account_id.display_name,
-                self.name or "",
+                {
+                    "placeholder1": _(self.account_id.display_name),
+                    "placeholder2": _(self.name) or "",
+                }
             )
         elif analytic_policy == "never" and self.analytic_account_id:
             return _(
                 "Analytic policy is set to 'Never' with account "
-                "'%s' but the account move line with label '%s' "
-                "has an analytic account '%s'."
+                "'%(placeholder1)s' but the account move line with label '%(placeholder2)s' "
+                "has an analytic account '%(placeholder3)s'."
             ) % (
-                self.account_id.display_name,
-                self.name or "",
-                self.analytic_account_id.display_name,
+                {
+                    "placeholder1": _(self.account_id.display_name),
+                    "placeholder2": _(self.name) or "",
+                    "placeholder3": _(self.analytic_account_id.display_name),
+                }
             )
         elif (
             analytic_policy == "posted"
@@ -90,11 +94,13 @@ class AccountMoveLine(models.Model):
         ):
             return _(
                 "Analytic policy is set to 'Posted moves' with "
-                "account '%s' but the analytic account is missing "
-                "in the account move line with label '%s'."
+                "account '%(placeholder1)s' but the analytic account is missing "
+                "in the account move line with label '%(placeholder2)s'."
             ) % (
-                self.account_id.display_name,
-                self.name or "",
+                {
+                    "placeholder1": _(self.account_id.display_name),
+                    "placeholder2": _(self.name) or "",
+                }
             )
         return None
 
