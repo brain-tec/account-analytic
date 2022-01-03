@@ -9,7 +9,7 @@
     "author": "Akretion, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/account-analytic",
     "depends": [
-        "account",
+        "account_menu",
     ],
     "data": ["views/account_account_type.xml"],
     "installable": True,
