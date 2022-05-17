@@ -1,6 +1,7 @@
 
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-analytic&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/account-analytic.svg?branch=14.0)](https://travis-ci.com/OCA/account-analytic)
+[![Pre-commit Status](https://github.com/OCA/account-analytic/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/account-analytic/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/account-analytic/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/account-analytic/actions/workflows/test.yml?query=branch%3A14.0)
 [![codecov](https://codecov.io/gh/OCA/account-analytic/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/account-analytic)
 [![Translation Status](https://translation.odoo-community.org/widgets/account-analytic-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-analytic-14-0/?utm_source=widget)
 
@@ -38,6 +39,7 @@ addon | version | maintainers | summary
 [pos_analytic_by_config](pos_analytic_by_config/) | 14.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
 [procurement_mto_analytic](procurement_mto_analytic/) | 14.0.1.0.0 |  | This module sets analytic account in purchase order line from sale order analytic account
 [product_analytic](product_analytic/) | 14.0.1.0.0 |  | Add analytic account on products and product categories
+[product_analytic_purchase](product_analytic_purchase/) | 14.0.1.0.1 |  | Glue module between purchase and product_analytic
 [purchase_analytic](purchase_analytic/) | 14.0.1.0.0 |  | Purchase Analytic
 [purchase_stock_analytic](purchase_stock_analytic/) | 14.0.1.0.0 |  | Copies the analytic account of the purchase order item to the stock move
 [sale_stock_analytic](sale_stock_analytic/) | 14.0.1.0.0 |  | Copies the analytic account of the sale order and the analytic tags of the sale order line to the stock move
