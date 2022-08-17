@@ -3,3 +3,4 @@
 from . import product_product
 from . import stock
 from . import stock_scrap
+from . import account_analytic_line
