@@ -17,7 +17,7 @@ Account Analytic Required
     :target: https://github.com/OCA/account-analytic/tree/15.0/account_analytic_required
     :alt: OCA/account-analytic
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/account-analytic-14-0/account-analytic-14-0-account_analytic_required
+    :target: https://translation.odoo-community.org/projects/account-analytic-15-0/account-analytic-15-0-account_analytic_required
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
     :target: https://runbot.odoo-community.org/runbot/87/15.0
