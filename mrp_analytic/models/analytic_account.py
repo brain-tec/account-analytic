@@ -12,5 +12,4 @@ class AnalyticAccount(models.Model):
         for analytic_account in self:
             domain = [("analytic_account_id", "=", analytic_account.id)]
             analytic_account.num_productions = production.search_count(domain)
-
     num_productions = fields.Integer(compute=_compute_num_productions, default=0)
