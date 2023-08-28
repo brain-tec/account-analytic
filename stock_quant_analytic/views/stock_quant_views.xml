@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Copyright (c) 2023 braintec AG (https://braintec.com)
+All Rights Reserved
+Licensed under the AGPL-3.0 (http://www.gnu.org/licenses/agpl.html).
+See LICENSE file for full licensing details.
+-->
+<odoo>
+    <record id="view_stock_quant_tree_inventory_editable" model="ir.ui.view">
+        <field name="name">stock.quant.tree.analytic</field>
+        <field name="model">stock.quant</field>
+        <field name="inherit_id" ref="stock.view_stock_quant_tree_inventory_editable" />
+        <field name="arch" type="xml">
+            <field name="product_id" position="after">
+                <field
+                    name="analytic_account_id"
+                    groups="analytic.group_analytic_accounting"
+                    optional="show"
+                />
+                <field
+                    name="analytic_tag_ids"
+                    groups="analytic.group_analytic_accounting"
+                    widget="many2many_tags"
+                    optional="show"
+                />
+            </field>
+        </field>
+    </record>
+</odoo>
