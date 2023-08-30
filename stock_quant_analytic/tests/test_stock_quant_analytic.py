@@ -15,8 +15,6 @@ class TestStockQuantAnalytic(TransactionCase):
         super().setUpClass()
         AccountAnalyticTag = cls.env["account.analytic.tag"]
         ProductProduct = cls.env["product.product"]
-        eur = cls.env["res.currency"].search([("name", "=", "EUR")])
-        eur.active = True
 
         cls.Quant = cls.env["stock.quant"]
         cls.StockMove = cls.env["stock.move"]

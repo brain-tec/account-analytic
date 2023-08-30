@@ -17,7 +17,6 @@ See LICENSE file for full licensing details.
                     <div
                         class="col-12 o_setting_box"
                         id="analytic_setting"
-                        groups="base.group_no_one"
                     >
                         <div class="o_setting_right_pane">
                             <span
