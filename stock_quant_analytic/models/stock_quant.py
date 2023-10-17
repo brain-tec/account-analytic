@@ -6,7 +6,7 @@
 # See LICENSE file for full licensing details.
 ##############################################################################
 
-from odoo import fields, models
+from odoo import api, fields, models
 
 
 class StockQuant(models.Model):
@@ -37,4 +37,10 @@ class StockQuant(models.Model):
             res["analytic_account_id"] = self.analytic_account_id.id
         if self.analytic_tag_ids:
             res["analytic_tag_ids"] = [(6, 0, self.analytic_tag_ids.ids)]
+        return res
+
+    @api.model
+    def _get_inventory_fields_write(self):
+        res = super()._get_inventory_fields_write()
+        res.extend(["analytic_account_id", "analytic_tag_ids"])
         return res
