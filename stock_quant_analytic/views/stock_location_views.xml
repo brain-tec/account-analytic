@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2024 braintec AG (https://braintec.com)
+All Rights Reserved
+Licensed under the AGPL-3.0 (http://www.gnu.org/licenses/agpl.html)
+See LICENSE file for full licensing details.
+-->
+<odoo>
+  <data>
+    <record id="view_stock_location_form" model="ir.ui.view">
+      <field name="name">stock.location.form</field>
+      <field name="model">stock.location</field>
+      <field name="inherit_id" ref="stock.view_location_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//group[@name='additional_info']" position="inside">
+          <field name="default_analytic_account_id"/>
+          <field name="default_analytic_tag_ids"
+                 widget="many2many_tags"
+                 options="{'color_field': 'color'}"/>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
