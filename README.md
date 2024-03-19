@@ -22,8 +22,9 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_analytic_account_tag](account_analytic_account_tag/) | 16.0.1.0.0 |  | Restore the tag_ids in account.analytic.account
-[account_analytic_parent](account_analytic_parent/) | 16.0.1.0.0 |  | This module reintroduces the hierarchy to the analytic accounts.
+[account_analytic_parent](account_analytic_parent/) | 16.0.1.0.1 |  | This module reintroduces the hierarchy to the analytic accounts.
 [account_analytic_required](account_analytic_required/) | 16.0.1.0.0 |  | Account Analytic Required
+[account_analytic_root](account_analytic_root/) | 16.0.1.0.0 | [![victor-champonnois](https://github.com/victor-champonnois.png?size=30px)](https://github.com/victor-champonnois) | Compute the Root Analytic Account
 [account_analytic_sequence](account_analytic_sequence/) | 16.0.1.0.0 |  | Restore the analytic account sequence
 [account_analytic_tag](account_analytic_tag/) | 16.0.1.0.0 |  | Account Analytic Tag
 [account_analytic_tag_distribution](account_analytic_tag_distribution/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Account Analytic Tag Distribution
@@ -31,8 +32,10 @@ addon | version | maintainers | summary
 [analytic_distribution_widget_remove_save](analytic_distribution_widget_remove_save/) | 16.0.1.0.1 |  | Remove save button on analytic distribution widget
 [hr_expense_analytic_tag](hr_expense_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Expense Analytic Tag
 [hr_timesheet_analytic_tag](hr_timesheet_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Timesheet Analytic Tag
+[mrp_stock_analytic](mrp_stock_analytic/) | 16.0.1.0.0 |  | MRP Stock Analytic
 [pos_analytic_by_config](pos_analytic_by_config/) | 16.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
 [product_analytic](product_analytic/) | 16.0.1.0.1 |  | Add analytic account on products and product categories
+[product_analytic_purchase](product_analytic_purchase/) | 16.0.1.0.0 |  | Glue module between purchase and product_analytic
 [purchase_analytic](purchase_analytic/) | 16.0.2.1.0 |  | Purchase Analytic
 [purchase_analytic_tag](purchase_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Purchase Analytic Tag
 [purchase_stock_analytic](purchase_stock_analytic/) | 16.0.1.0.1 |  | Copies the analytic distribution of the purchase order item to the stock move
