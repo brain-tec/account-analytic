@@ -28,6 +28,7 @@ setuptools.setup(
         'odoo-addon-pos_analytic_by_config>=16.0dev,<16.1dev',
         'odoo-addon-product_analytic>=16.0dev,<16.1dev',
         'odoo-addon-product_analytic_purchase>=16.0dev,<16.1dev',
+        'odoo-addon-product_analytic_sale>=16.0dev,<16.1dev',
         'odoo-addon-purchase_analytic>=16.0dev,<16.1dev',
         'odoo-addon-purchase_analytic_tag>=16.0dev,<16.1dev',
         'odoo-addon-purchase_stock_analytic>=16.0dev,<16.1dev',
