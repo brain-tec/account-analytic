@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [hr_timesheet_analytic_tag](hr_timesheet_analytic_tag/) | 18.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Timesheet Analytic Tag
 [pos_analytic_by_config](pos_analytic_by_config/) | 18.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
 [purchase_analytic](purchase_analytic/) | 18.0.1.0.0 |  | Purchase Analytic
-[stock_analytic](stock_analytic/) | 18.0.1.0.0 |  | Adds analytic distribution in stock move
+[stock_analytic](stock_analytic/) | 18.0.1.0.1 |  | Adds analytic distribution in stock move
 
 [//]: # (end addons)
 
