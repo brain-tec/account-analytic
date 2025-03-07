@@ -34,6 +34,7 @@ addon | version | maintainers | summary
 [account_move_update_analytic](account_move_update_analytic/) | 16.0.1.0.2 | [![remi-filament](https://github.com/remi-filament.png?size=30px)](https://github.com/remi-filament) [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | This module allows the user to update analytic on posted moves
 [analytic_base_department](analytic_base_department/) | 16.0.1.0.0 |  | Add relationship between Analytic and Department
 [analytic_distribution_widget_remove_save](analytic_distribution_widget_remove_save/) | 16.0.1.0.1 |  | Remove save button on analytic distribution widget
+[analytic_mixin_analytic_account](analytic_mixin_analytic_account/) | 16.0.1.0.0 |  | Analytic Mixin Analytic Account
 [analytic_partner](analytic_partner/) | 16.0.1.0.0 |  | Search and group analytic entries by partner
 [hr_department_analytic](hr_department_analytic/) | 16.0.1.0.0 |  | This module allows to specify analytic account on hr department
 [hr_expense_analytic_tag](hr_expense_analytic_tag/) | 16.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Expense Analytic Tag
