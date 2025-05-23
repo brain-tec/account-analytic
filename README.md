@@ -22,7 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_analytic_account_tag](account_analytic_account_tag/) | 16.0.1.0.0 |  | Restore the tag_ids in account.analytic.account
-[account_analytic_distribution_manual](account_analytic_distribution_manual/) | 16.0.2.4.0 |  | Account analytic distribution manual
+[account_analytic_distribution_manual](account_analytic_distribution_manual/) | 16.0.2.4.2 |  | Account analytic distribution manual
 [account_analytic_document_date](account_analytic_document_date/) | 16.0.1.0.1 | [![mpascuall](https://github.com/mpascuall.png?size=30px)](https://github.com/mpascuall) [![BernatObrador](https://github.com/BernatObrador.png?size=30px)](https://github.com/BernatObrador) | Account Analytic Document Date
 [account_analytic_organization](account_analytic_organization/) | 16.0.1.0.1 | [![mpascuall](https://github.com/mpascuall.png?size=30px)](https://github.com/mpascuall) | Adds organization field on the partner so you can use it on your analytic
 [account_analytic_parent](account_analytic_parent/) | 16.0.1.0.1 |  | This module reintroduces the hierarchy to the analytic accounts.
@@ -41,7 +41,7 @@ addon | version | maintainers | summary
 [hr_expense_analytic_tag](hr_expense_analytic_tag/) | 16.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Expense Analytic Tag
 [hr_timesheet_analytic_tag](hr_timesheet_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Timesheet Analytic Tag
 [mrp_stock_analytic](mrp_stock_analytic/) | 16.0.1.0.0 |  | MRP Stock Analytic
-[pos_analytic_by_config](pos_analytic_by_config/) | 16.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
+[pos_analytic_by_config](pos_analytic_by_config/) | 16.0.1.0.1 |  | Use analytic account defined on POS configuration for POS orders
 [product_analytic](product_analytic/) | 16.0.1.1.0 |  | Add analytic account on products and product categories
 [product_analytic_purchase](product_analytic_purchase/) | 16.0.1.0.0 |  | Glue module between purchase and product_analytic
 [product_analytic_sale](product_analytic_sale/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Glue module between sale and product_analytic
