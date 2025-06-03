@@ -24,6 +24,7 @@ setuptools.setup(
         'odoo-addon-analytic_hr_department_restriction>=16.0dev,<16.1dev',
         'odoo-addon-analytic_mixin_analytic_account>=16.0dev,<16.1dev',
         'odoo-addon-analytic_partner>=16.0dev,<16.1dev',
+        'odoo-addon-crm_claim_analytic>=16.0dev,<16.1dev',
         'odoo-addon-hr_department_analytic>=16.0dev,<16.1dev',
         'odoo-addon-hr_expense_analytic_tag>=16.0dev,<16.1dev',
         'odoo-addon-hr_timesheet_analytic_tag>=16.0dev,<16.1dev',

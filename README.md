@@ -37,6 +37,7 @@ addon | version | maintainers | summary
 [analytic_hr_department_restriction](analytic_hr_department_restriction/) | 16.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Analytic distributions restriction per HR department
 [analytic_mixin_analytic_account](analytic_mixin_analytic_account/) | 16.0.1.0.0 |  | Analytic Mixin Analytic Account
 [analytic_partner](analytic_partner/) | 16.0.1.0.0 |  | Search and group analytic entries by partner
+[crm_claim_analytic](crm_claim_analytic/) | 16.0.1.0.0 | [![MiguelPoyatos](https://github.com/MiguelPoyatos.png?size=30px)](https://github.com/MiguelPoyatos) | CRM Claim Analytic
 [hr_department_analytic](hr_department_analytic/) | 16.0.1.0.0 |  | This module allows to specify analytic account on hr department
 [hr_expense_analytic_tag](hr_expense_analytic_tag/) | 16.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Expense Analytic Tag
 [hr_timesheet_analytic_tag](hr_timesheet_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Hr Timesheet Analytic Tag
@@ -49,7 +50,7 @@ addon | version | maintainers | summary
 [purchase_analytic_tag](purchase_analytic_tag/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Purchase Analytic Tag
 [purchase_stock_analytic](purchase_stock_analytic/) | 16.0.1.0.1 |  | Copies the analytic distribution of the purchase order item to the stock move
 [sale_analytic_tag](sale_analytic_tag/) | 16.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Analytic Tag
-[stock_analytic](stock_analytic/) | 16.0.1.3.1 |  | Adds analytic distribution in stock move
+[stock_analytic](stock_analytic/) | 16.0.1.4.0 |  | Adds analytic distribution in stock move
 [stock_landed_costs_analytic](stock_landed_costs_analytic/) | 16.0.1.0.0 |  | This module adds an analytic account and analytic tags on landed costs lines so that on landed costs validation account moves get analytic account and analytic tags values from landed costs lines.
 [stock_picking_analytic](stock_picking_analytic/) | 16.0.1.0.1 |  | Allows to define the analytic account on picking level
 
