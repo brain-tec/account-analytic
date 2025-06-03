@@ -23,6 +23,8 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_analytic_distribution_manual](account_analytic_distribution_manual/) | 17.0.1.0.1 |  | Account analytic distribution manual
 [account_analytic_distribution_manual_date](account_analytic_distribution_manual_date/) | 17.0.1.0.0 | [![BernatObrador](https://github.com/BernatObrador.png?size=30px)](https://github.com/BernatObrador) | Account analytic distribution manual date
+[account_analytic_distribution_model_recalculate](account_analytic_distribution_model_recalculate/) | 17.0.1.0.0 | [![BernatObrador](https://github.com/BernatObrador.png?size=30px)](https://github.com/BernatObrador) | Add the posibility to change the analytic distribution of the journal items assigned by the distribution model
+[account_analytic_distribution_widget_rebalance](account_analytic_distribution_widget_rebalance/) | 17.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Add a button to rebalance the analytic distribution back to 100%
 [account_analytic_parent](account_analytic_parent/) | 17.0.1.0.0 |  | This module reintroduces the hierarchy to the analytic accounts.
 [account_analytic_required](account_analytic_required/) | 17.0.1.0.0 |  | Account Analytic Required
 [account_analytic_sequence](account_analytic_sequence/) | 17.0.1.0.0 |  | Restore the analytic account sequence
@@ -35,8 +37,10 @@ addon | version | maintainers | summary
 [pos_analytic_by_config](pos_analytic_by_config/) | 17.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
 [purchase_analytic](purchase_analytic/) | 17.0.1.0.0 |  | Purchase Analytic
 [purchase_analytic_tag](purchase_analytic_tag/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Purchase Analytic Tag
+[purchase_request_analytic](purchase_request_analytic/) | 17.0.1.0.0 |  | Purchase Request Analytic
 [purchase_stock_analytic](purchase_stock_analytic/) | 17.0.1.0.0 |  | Copies the analytic distribution of the purchase order itemto the stock move
 [stock_analytic](stock_analytic/) | 17.0.1.2.1 |  | Adds analytic distribution in stock move
+[stock_landed_costs_analytic](stock_landed_costs_analytic/) | 17.0.1.0.0 |  | This module adds an analytic account and analytic tags on landed costs lines so that on landed costs validation account moves get analytic account and analytic tags values from landed costs lines.
 [stock_picking_analytic](stock_picking_analytic/) | 17.0.1.0.0 |  | Allows to define the analytic account on picking level
 
 [//]: # (end addons)
