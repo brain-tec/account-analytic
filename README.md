@@ -27,9 +27,9 @@ addon | version | maintainers | summary
 [account_analytic_required](account_analytic_required/) | 14.0.1.0.3 |  | Account Analytic Required
 [account_analytic_sequence](account_analytic_sequence/) | 14.0.1.0.1 |  | Restore the analytic account sequence
 [account_analytic_tag_default](account_analytic_tag_default/) | 14.0.1.0.0 |  | Set default tags on analytic accounts.
-[account_analytic_wip](account_analytic_wip/) | 14.0.3.0.3 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Track and report WIP and Variances based on Analytic Items
+[account_analytic_wip](account_analytic_wip/) | 14.0.3.0.3 | <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> | Track and report WIP and Variances based on Analytic Items
 [account_move_update_analytic](account_move_update_analytic/) | 14.0.1.0.1 |  | This module allows the user to update analytic on posted moves
-[analytic_activity_based_cost](analytic_activity_based_cost/) | 14.0.4.1.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Assign overhead costs to activities, using Analytic Items
+[analytic_activity_based_cost](analytic_activity_based_cost/) | 14.0.4.1.0 | <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> | Assign overhead costs to activities, using Analytic Items
 [analytic_base_department](analytic_base_department/) | 14.0.1.0.0 |  | Add relationshet between Analytic and Department
 [analytic_partner](analytic_partner/) | 14.0.1.0.0 |  | Search and group analytic entries by partner
 [analytic_partner_hr_timesheet](analytic_partner_hr_timesheet/) | 14.0.1.0.0 |  | Classify HR activities by partner
@@ -42,7 +42,7 @@ addon | version | maintainers | summary
 [procurement_mto_analytic](procurement_mto_analytic/) | 14.0.1.0.0 |  | This module sets analytic account in purchase order line from sale order analytic account
 [product_analytic](product_analytic/) | 14.0.1.0.0 |  | Add analytic account on products and product categories
 [product_analytic_purchase](product_analytic_purchase/) | 14.0.1.0.1 |  | Glue module between purchase and product_analytic
-[product_analytic_sale](product_analytic_sale/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Glue module between sale and product_analytic
+[product_analytic_sale](product_analytic_sale/) | 14.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Glue module between sale and product_analytic
 [purchase_analytic](purchase_analytic/) | 14.0.3.0.0 |  | Purchase Analytic
 [purchase_request_analytic](purchase_request_analytic/) | 14.0.1.0.0 |  | Purchase Request Analytic
 [purchase_stock_analytic](purchase_stock_analytic/) | 14.0.1.0.0 |  | Copies the analytic account of the purchase order item to the stock move
