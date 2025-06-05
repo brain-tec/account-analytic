@@ -25,12 +25,12 @@ addon | version | maintainers | summary
 [account_analytic_required](account_analytic_required/) | 15.0.1.0.2 |  | Account Analytic Required
 [account_analytic_sequence](account_analytic_sequence/) | 15.0.1.0.1 |  | Restore the analytic account sequence
 [account_analytic_tag_default](account_analytic_tag_default/) | 15.0.1.1.0 |  | Set default tags on analytic accounts.
-[account_move_update_analytic](account_move_update_analytic/) | 15.0.1.2.0 | [![remi-filament](https://github.com/remi-filament.png?size=30px)](https://github.com/remi-filament) [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | This module allows the user to update analytic on posted moves
+[account_move_update_analytic](account_move_update_analytic/) | 15.0.1.2.0 | <a href='https://github.com/remi-filament'><img src='https://github.com/remi-filament.png' width='32' height='32' style='border-radius:50%;' alt='remi-filament'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | This module allows the user to update analytic on posted moves
 [analytic_base_department](analytic_base_department/) | 15.0.1.0.0 |  | Add relationship between Analytic and Department
 [analytic_partner](analytic_partner/) | 15.0.1.0.1 |  | Search and group analytic entries by partner
 [analytic_tag_dimension](analytic_tag_dimension/) | 15.0.1.0.2 |  | Group Analytic Entries by Dimensions
 [mrp_analytic](mrp_analytic/) | 15.0.1.0.0 |  | Adds the analytic account to the production order
-[partner_analytic](partner_analytic/) | 15.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Adds Income/Expense Analytic Accounts on Contacts.
+[partner_analytic](partner_analytic/) | 15.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Adds Income/Expense Analytic Accounts on Contacts.
 [pos_analytic_by_config](pos_analytic_by_config/) | 15.0.1.0.1 |  | Use analytic account defined on POS configuration for POS orders
 [procurement_mto_analytic](procurement_mto_analytic/) | 15.0.1.0.0 |  | This module sets analytic account in purchase order line from sale order analytic account
 [product_analytic](product_analytic/) | 15.0.1.0.1 |  | Add analytic account on products and product categories
