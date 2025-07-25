@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_analytic_account_tag](account_analytic_account_tag/) | 17.0.1.0.0 |  | Restore the tag_ids in account.analytic.account
 [account_analytic_distribution_manual](account_analytic_distribution_manual/) | 17.0.1.0.1 |  | Account analytic distribution manual
 [account_analytic_distribution_manual_date](account_analytic_distribution_manual_date/) | 17.0.1.0.0 | <a href='https://github.com/BernatObrador'><img src='https://github.com/BernatObrador.png' width='32' height='32' style='border-radius:50%;' alt='BernatObrador'/></a> | Account analytic distribution manual date
 [account_analytic_distribution_model_recalculate](account_analytic_distribution_model_recalculate/) | 17.0.1.0.1 | <a href='https://github.com/BernatObrador'><img src='https://github.com/BernatObrador.png' width='32' height='32' style='border-radius:50%;' alt='BernatObrador'/></a> | Add the posibility to change the analytic distribution of the journal items assigned by the distribution model
