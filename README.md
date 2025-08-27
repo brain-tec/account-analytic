@@ -40,7 +40,7 @@ addon | version | maintainers | summary
 [mrp_analytic_sale_project](mrp_analytic_sale_project/) | 14.0.1.0.0 |  | Carry the Sales Order Analytic Account to the generated Manufacturing Orders
 [pos_analytic_by_config](pos_analytic_by_config/) | 14.0.1.0.0 |  | Use analytic account defined on POS configuration for POS orders
 [procurement_mto_analytic](procurement_mto_analytic/) | 14.0.1.0.0 |  | This module sets analytic account in purchase order line from sale order analytic account
-[product_analytic](product_analytic/) | 14.0.1.0.0 |  | Add analytic account on products and product categories
+[product_analytic](product_analytic/) | 14.0.1.1.0 |  | Add analytic account on products and product categories
 [product_analytic_purchase](product_analytic_purchase/) | 14.0.1.0.1 |  | Glue module between purchase and product_analytic
 [product_analytic_sale](product_analytic_sale/) | 14.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Glue module between sale and product_analytic
 [purchase_analytic](purchase_analytic/) | 14.0.3.0.0 |  | Purchase Analytic
