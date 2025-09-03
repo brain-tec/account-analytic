@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-account-analytic"
-version = "18.0.20250602.2"
+version = "18.0.20250902.1"
 dependencies = [
     "odoo-addon-account_analytic_distribution_manual==18.0.*",
     "odoo-addon-account_analytic_parent==18.0.*",
@@ -10,10 +10,12 @@ dependencies = [
     "odoo-addon-account_analytic_tag==18.0.*",
     "odoo-addon-analytic_base_department==18.0.*",
     "odoo-addon-analytic_hr_department_restriction==18.0.*",
+    "odoo-addon-hr_expense_analytic_tag==18.0.*",
     "odoo-addon-hr_timesheet_analytic_tag==18.0.*",
     "odoo-addon-pos_analytic_by_config==18.0.*",
     "odoo-addon-purchase_analytic==18.0.*",
     "odoo-addon-purchase_analytic_tag==18.0.*",
+    "odoo-addon-sale_analytic_tag==18.0.*",
     "odoo-addon-stock_analytic==18.0.*",
 ]
 classifiers=[
