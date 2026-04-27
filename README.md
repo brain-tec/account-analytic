@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# account-analytic
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-analytic&target_branch=18.0)
 [![Pre-commit Status](https://github.com/OCA/account-analytic/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/account-analytic/actions/workflows/pre-commit.yml?query=branch%3A18.0)
 [![Build Status](https://github.com/OCA/account-analytic/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/account-analytic/actions/workflows/test.yml?query=branch%3A18.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/account-analytic-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-analytic-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# account-analytic
 
 account-analytic
 
@@ -23,6 +24,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_analytic_distribution_manual](account_analytic_distribution_manual/) | 18.0.1.0.1 |  | Account analytic distribution manual
 [account_analytic_line_commercial_partner](account_analytic_line_commercial_partner/) | 18.0.1.0.1 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/Andrii9090'><img src='https://github.com/Andrii9090.png' width='32' height='32' style='border-radius:50%;' alt='Andrii9090'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | This module add the commercial partner field to analytic items
+[account_analytic_organization](account_analytic_organization/) | 18.0.1.0.0 | <a href='https://github.com/mpascuall'><img src='https://github.com/mpascuall.png' width='32' height='32' style='border-radius:50%;' alt='mpascuall'/></a> | Adds organization field on the partner so you can use it on your analytic
 [account_analytic_parent](account_analytic_parent/) | 18.0.1.0.0 |  | This module reintroduces the hierarchy to the analytic accounts.
 [account_analytic_required](account_analytic_required/) | 18.0.1.0.0 |  | Account Analytic Required
 [account_analytic_sequence](account_analytic_sequence/) | 18.0.1.0.0 |  | Restore the analytic account sequence
