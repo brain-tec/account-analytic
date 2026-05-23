@@ -71,6 +71,12 @@ class AccountAnalyticDefaultAccount(models.Model):
             if index > best_index:
                 res = rec
                 best_index = index
+        # When searching by account_id (move line context without partner), do not
+        # return a catch-all record with no conditions set. Returning score-0 records
+        # here would cause any unconditional default to be applied to every accounting
+        # entry that lacks a specific rule, which is never the intended behaviour.
+        if account_id and best_index == 0:
+            return self.env['account.analytic.default']
         return res
 
 
@@ -112,7 +118,8 @@ class AccountMoveLine(models.Model):
         for line in self:
             if line.account_id and not line.analytic_account_id:
                 rec = self.env['account.analytic.default'].account_get(
-                    account_id=line.account_id.id)
+                    account_id=line.account_id.id,
+                    company_id=line.company_id.id)
                 if rec:
                     line.analytic_account_id = rec.analytic_id.id
 
@@ -121,7 +128,8 @@ class AccountMoveLine(models.Model):
         for line in self:
             if not line.analytic_account_id:
                 rec = self.env['account.analytic.default'].account_get(
-                    account_id=line.account_id.id)
+                    account_id=line.account_id.id,
+                    company_id=line.company_id.id)
                 if rec:
                     line.analytic_account_id = rec.analytic_id.id
 
@@ -130,7 +138,8 @@ class AccountMoveLine(models.Model):
         for vals in vals_list:
             if 'analytic_account_id' not in vals:
                 rec = self.env['account.analytic.default'].account_get(
-                    account_id=vals.get('account_id'))
+                    account_id=vals.get('account_id'),
+                    company_id=vals.get('company_id'))
                 if rec:
                     vals['analytic_account_id'] = rec.analytic_id.id
         return super().create(vals_list)
